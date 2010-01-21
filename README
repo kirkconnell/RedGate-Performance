@@ -5,17 +5,17 @@ The goal of this project is to gather performance information of a RedGate serve
 == 1. A Test Message Receiver Web Server
 A web server that exposes resources where the test messages will be stored. RedGate will send through ActiveRecord. The following resources will be available for storing test messages:
 
-scalar_msg => a single integer message
-string_msg => a single 20 char message
-big_string_msg => a single 255 char message
+scalar_message => a single integer message
+string_message => a single 20 char message
+big_string_message => a single 255 char message
 
-scalar_array_msg => a message with 10 integer fields
-string_array_msg => a message with 10 20 char fields
-big_string_array_msg => a message with 10 255 char fields
+scalar_array_message => a message with 10 integer fields
+string_array_message => a message with 10 20 char fields
+big_string_array_message => a message with 10 255 char fields
 
-scalar_big_array_msg => a message with 100 integer fields
-string_big_array_msg => a message with 100 20 char fields
-big_string_big_array_msg => a message with 100 255 char fields
+scalar_big_array_message => a message with 100 integer fields
+string_big_array_message => a message with 100 20 char fields
+big_string_big_array_message => a message with 100 255 char fields
 
 
 == 2. A Set of Rake Tasks for Sending Test Messages
