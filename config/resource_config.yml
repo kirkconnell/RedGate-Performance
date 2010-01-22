@@ -1,0 +1,8 @@
+development:
+  site: localhost:3000
+
+test:
+  site: test.host
+
+production:
+  site: localhost

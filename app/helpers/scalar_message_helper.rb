@@ -1,0 +1,2 @@
+module ScalarMessageHelper
+end

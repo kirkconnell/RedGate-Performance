@@ -1,0 +1,2 @@
+module BigStringMessageHelper
+end
