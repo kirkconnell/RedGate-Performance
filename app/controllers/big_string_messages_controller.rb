@@ -1,4 +1,4 @@
-class BigStringMessageController < ApplicationController
+class BigStringMessagesController < ApplicationController
   # GET /samples
   # GET /samples.xml
   def index

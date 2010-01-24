@@ -1,6 +1,6 @@
 require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
-describe ScalarArrayMessageController do
+describe ScalarArrayMessagesController do
 
   def mock_message(stubs={})
     @mock_message ||= mock_model(ScalarArrayMessage, stubs.merge(:to_xml => ""))

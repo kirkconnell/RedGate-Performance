@@ -1,6 +1,6 @@
 require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
-describe ScalarBigArrayMessageController do
+describe ScalarBigArrayMessagesController do
 
   def mock_message(stubs={})
     @mock_message ||= mock_model(ScalarBigArrayMessage, stubs.merge(:to_xml => ""))

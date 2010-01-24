@@ -1,4 +1,4 @@
-class ScalarMessageController < ApplicationController
+class ScalarMessagesController < ApplicationController
   # GET /samples
   # GET /samples.xml
   def index

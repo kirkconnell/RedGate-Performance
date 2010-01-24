@@ -1,6 +1,6 @@
 require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
-describe StringMessageController do
+describe StringMessagesController do
 
   def mock_message(stubs={})
     @mock_message ||= mock_model(StringMessage, stubs.merge(:to_xml => ""))

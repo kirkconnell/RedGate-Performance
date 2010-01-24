@@ -1,4 +1,4 @@
-class StringArrayMessageController < ApplicationController
+class StringArrayMessagesController < ApplicationController
   # GET /samples
   # GET /samples.xml
   def index
