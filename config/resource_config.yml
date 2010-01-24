@@ -2,7 +2,7 @@ development:
   site: http://localhost:3000
 
 test:
-  site: localhost:3000
+  site: http://localhost:3000
 
 production:
-  site: localhost:3000
+  site: http://localhost:3000
